@@ -1,4 +1,3 @@
-import Navbar from "@/components/site/Navbar";
 import Footer from "@/components/site/Footer";
 import { motion } from "framer-motion";
 
@@ -20,7 +19,6 @@ const items = Array.from({ length: 9 }).map((_, i) => ({
 
 const Design = () => (
   <main className="min-h-screen bg-canvas">
-    <Navbar />
     <section className="pt-40 pb-12 container-x">
       <p className="text-xs uppercase tracking-[0.3em] text-muted-foreground mb-6">Design</p>
       <h1 className="display text-6xl md:text-8xl leading-[0.9] max-w-[16ch]">

@@ -1,4 +1,3 @@
-import Navbar from "@/components/site/Navbar";
 import Footer from "@/components/site/Footer";
 import { motion } from "framer-motion";
 
@@ -56,7 +55,6 @@ const projects = [
 const Projects = () => {
   return (
     <main className="min-h-screen bg-canvas">
-      <Navbar />
       <section className="pt-40 pb-16 container-x">
         <motion.p
           initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}

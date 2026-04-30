@@ -1,4 +1,3 @@
-import Navbar from "@/components/site/Navbar";
 import Footer from "@/components/site/Footer";
 import { motion } from "framer-motion";
 import { useState } from "react";
@@ -19,8 +18,6 @@ const Contact = () => {
 
   return (
     <main className="min-h-screen bg-canvas">
-      <Navbar />
-
       <section className="pt-40 pb-20 container-x">
         <motion.p
           initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }}
